@@ -7,8 +7,8 @@ public class P032_LowestCommonMultple {
 		System.out.println("LCM");
 		int num1 = getNumber();
 		int num2 = getNumber();
-		int LCM = calculateLCM(num1, num2);
-		System.out.println("The LCM is :" + LCM);
+//		int LCM = calculateLCM(num1, num2);
+//		System.out.println("The LCM is :" + LCM);
 		int LCM2 = calculateLCM2(num1, num2);
 		System.out.println("The LCM is :" + LCM2);
 	}
@@ -19,21 +19,21 @@ public class P032_LowestCommonMultple {
 		System.out.println("Enter a Number  ");
 		return sc.nextInt();
 	}
-
-	public static int calculateLCM(int n1, int n2) {
-		int i;
-		for (i = 1; i <= n1; i++) {
-			int ires = i * n1;
-			int j;
-			for (j = 1; j <= n2; j++) {
-				int jres = j * n2;
-				if (ires == jres) {
-					return ires;
-				}
-			}
-		}
-		return 0;
-	}
+//This will not give correct ans for all values
+//	public static int calculateLCM(int n1, int n2) {
+//		int i;
+//		for (i = 1; i <= n1; i++) {
+//			int ires = i * n1;
+//			int j;
+//			for (j = 1; j <= n2; j++) {
+//				int jres = j * n2;
+//				if (ires == jres) {
+//					return ires;
+//				}
+//			}
+//		}
+//		return 0;
+//	}
 
 	public static int calculateLCM2(int n1, int n2) {
 		int i = 1;
