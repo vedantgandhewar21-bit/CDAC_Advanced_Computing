@@ -1,0 +1,17 @@
+# Java compiled files
+*.class
+
+# Java build output
+bin/
+target/
+
+# Eclipse / Spring Tool Suite (STS)
+.classpath
+.project
+.settings/
+
+# Spring Tool Suite workspace metadata
+.springBeans
+
+# VS Code
+.vscode/
