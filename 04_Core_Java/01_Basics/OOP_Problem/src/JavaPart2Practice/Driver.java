@@ -36,6 +36,34 @@ public class Driver {
 // startedCar.drive();
  maruti.start().drive();
  
- 
+ /* Sure 👍 Here are the 7 use cases in very short points:
+
+Static Variable:
+Belongs to the class.
+One shared copy for all objects.
+
+Non-static Variable:
+Belongs to the object.
+Each object has its own copy.
+
+Static Method:
+Belongs to the class.
+Can be called without creating an object.
+
+Non-static Method:
+Belongs to the object.
+Requires an object to call it.
+
+Static → Non-static:
+Static method cannot directly access non-static members.
+Can access them through an object reference.
+
+Non-static → Static:
+Non-static method can directly access static members.
+Because static members belong to the class and are shared.
+
+this with Static:
+Non-static method → has this.
+Static method → does not have this because it has no current object.*/
 }
 }
