@@ -8,7 +8,15 @@ public class Car {
 	float maxSpeed; // 0
 	float currentFuelInLiters;// 0
 	int noOfSeats;// 0
+    float price;
+	
 
+		Car() { // Default Constructor
+			color = "Black";
+			price = 50000;
+		}
+
+	
 //Start the car
 	public Car start() {
 
