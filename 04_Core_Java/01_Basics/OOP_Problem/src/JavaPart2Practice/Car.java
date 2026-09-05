@@ -14,6 +14,10 @@ public class Car {
 		Car() { // Default Constructor
 			color = "Black";
 			price = 50000;
+			noOfWheels = 4;
+			maxSpeed = 150;
+			currentFuelInLiters = 2;
+			noOfSeats = 5; 
 		}
 
 	
