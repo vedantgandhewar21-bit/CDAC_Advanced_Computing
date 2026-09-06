@@ -38,7 +38,7 @@ public class Driver {
 		}
 //		Car maruti = new Car();
 //
-//		Car startedCar = maruti.start();
+//		Car startedCar = maruti.start();  
 //		maruti.drive();
 //		maruti.addFuel(5f);
 //// startedCar.drive();
@@ -52,7 +52,13 @@ public class Driver {
 		//System.out.println( " -"+name );// Error , chnage Name to Static
 		System.out.println( " -"+myDriver.name );
 		
+		Car swift = new Car("Red");
+		Car thar = new Car();
 		
+		swift.addFuel(3f);
+		swift.start().drive();
+		System.out.println(swift.color);
+		System.out.println(thar.color);
 		
 		
 		/*

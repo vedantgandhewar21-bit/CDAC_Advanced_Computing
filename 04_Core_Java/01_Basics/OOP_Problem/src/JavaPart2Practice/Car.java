@@ -11,14 +11,28 @@ public class Car {
     float price;
 	
 
-		Car() { // Default Constructor
-			color = "Black";
+		Car(String color) { // Parameterized Constructor
+			this.color = color;
 			price = 50000;
 			noOfWheels = 4;
 			maxSpeed = 150;
 			currentFuelInLiters = 2;
 			noOfSeats = 5; 
 		}
+		
+//		Car() { // Default Constructor
+//			color = "Black";
+//			price = 50000;
+//			noOfWheels = 4;
+//			maxSpeed = 150;
+//			currentFuelInLiters = 2;
+//			noOfSeats = 5; 
+//		}
+		//or
+        Car(){
+        	this("Black");
+        }
+		
 
 	
 //Start the car
