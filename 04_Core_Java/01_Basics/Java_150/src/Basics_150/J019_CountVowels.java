@@ -3,8 +3,11 @@ package Basics_150;
 import java.util.Scanner;
 
 public class J019_CountVowels {
+	public static void main(String[] args) {
+		
+	
 	  Scanner sc = new Scanner(System.in);
-
+    
       System.out.print("Enter a string: ");
       String str = sc.nextLine();
 
@@ -18,13 +21,13 @@ public class J019_CountVowels {
 
           if (ch == 'a' || ch == 'e' || ch == 'i' ||
               ch == 'o' || ch == 'u') {
-
+              System.out.print(ch +" ");
               count++;
           }
       }
-
+       System.out.println();
       System.out.println("Number of vowels: " + count);
 
       sc.close();
-  }
-}
+  }}
+
