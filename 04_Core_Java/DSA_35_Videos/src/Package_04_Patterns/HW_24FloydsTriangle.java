@@ -17,7 +17,12 @@ public class HW_24FloydsTriangle {
 		int a=1;
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= i ; j++) {
-				System.out.print(a);
+				
+				System.out.print(a+"  ");
+				{
+				if(a<10) // line just to make it look good
+					System.out.print(" ");
+				}
 				a++;
 			}
 			System.out.println();
